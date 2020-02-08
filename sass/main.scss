@@ -1,0 +1,110 @@
+// @font-face {
+// 	font-family: 'DINNext';
+// 	src: url('../DINNextLTPro-Regular.ttf') format('truetype');
+// 	font-weight: normal;
+// 	font-style: normal;
+// }
+// @font-face {
+// 	font-family: 'DINNext';
+// 	src: url('../DINNextLTPro-Medium.ttf') format('truetype');
+// 	font-weight: medium;
+// 	font-style: normal;
+// }
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	font-family: 'DINNext', sans-serif;
+	color: #242424;
+	display: flex;
+	margin: 64px 165px;
+}
+
+.sidebar {
+	margin-left: 95px;
+	flex: 0 1 250px;
+	
+	&__container {
+		position: -webkit-sticky;
+		position: sticky;
+		top: 64px;
+		
+	}
+	
+	&__title {
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 25px;
+		margin-bottom: 5px;
+	}
+
+	&__list {
+		list-style: none;
+	}
+	
+	&__item {
+		border-left: 4px solid #EAEAE9;
+		padding: 8px 12px;		
+	}
+	
+	&__link {
+		text-decoration: none;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 22px;
+		color: #797878;
+	}
+}
+
+.active {
+	border-left: 4px solid #0093B2 !important;
+
+	a {
+		font-weight: 500;
+		color: #242424;
+	}
+}
+
+.faq {
+	margin-left: 80px;
+	flex-shrink: 2;
+
+	&__space {
+		height: 100vh;
+		background-color: orangered;
+	}
+
+	&__section {
+		margin-top: 48px;
+	}
+
+	&__topic {
+		font-weight: 500;
+		font-size: 28px;
+		line-height: 125%;
+		color: #242424;
+
+		&:before {
+			background: green;
+			height: 25px;
+			display: block;
+			content: '';
+		  }
+	}
+
+	&__content {
+		height: 500px;
+		background-color: green;
+	}
+}
