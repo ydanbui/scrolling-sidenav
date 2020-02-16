@@ -6,5 +6,9 @@ I recently learned about the Javascript Interaction Observer API, a native and r
 
 GIF of sidenav in action.
 
+Problems
+- detection for the last section
+- getting the upward and bottom scrolling detection right (ie when bottom margin is -75% the upward scrolling detection is wack)
+
 
 

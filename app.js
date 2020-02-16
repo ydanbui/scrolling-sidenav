@@ -2,7 +2,9 @@ const sections = document.querySelectorAll('.faq__topic')
 const navlist = document.querySelectorAll('.sidebar__item')
 
 let options = {
-    rootMargin: '-5% 0px -50% 0px',
+    rootMargin: '-10% 0px -60% 0px',
+    // rootMargin: '-17% 0px -70% 0px',
+
     threshold: 0
 }
 
@@ -16,10 +18,10 @@ let observer = new IntersectionObserver(entries => {
                     item.classList.remove('active')
                 }
             })
-            entry.target.style.backgroundColor = 'black'
+            // entry.target.style.backgroundColor = 'black'
             console.log(entry.target.dataset.scroll, 'int')
         } else {
-            entry.target.style.backgroundColor = "pink"
+            // entry.target.style.backgroundColor = "pink"
             console.log(entry.target.dataset.scroll, 'not')
         }
     })

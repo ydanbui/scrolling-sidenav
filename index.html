@@ -4,53 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Querri FAQ</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <body>
+    <header class="header">Header</header>
+    <div class="container">
         <aside class="sidebar">
-            <div class="sidebar__container">
+            <nav class="sidebar__container">
                 <h3 class="sidebar__title">Topics</h3>
                 <ul class="sidebar__list">
-                    <li class="sidebar__item active" data-scroll = "#topic1""><a class="sidebar__link" href="#topic1">Topic 1</a></li>
-                    <li class="sidebar__item" data-scroll = "#topic2"><a class="sidebar__link" href="#topic2">Topic 2</a></li>
-                    <li class="sidebar__item" data-scroll = "#topic3"><a class="sidebar__link" href="#topic3">Topic 3</a></li>
-                    <li class="sidebar__item" data-scroll = "#topic4"><a class="sidebar__link" href="#topic4">Topic 4</a></li>
-                    <li class="sidebar__item" data-scroll = "#topic5"><a class="sidebar__link" href="#topic5">Topic 5</a></li>
+                    <li class="sidebar__item active" data-scroll = "#about""><a class="sidebar__link" href="#about">About Querri</a></li>
+                    <li class="sidebar__item" data-scroll = "#basics"><a class="sidebar__link" href="#basics">Basics</a></li>
+                    <li class="sidebar__item" data-scroll = "#gettingstarted"><a class="sidebar__link" href="#gettingstarted">Getting Started</a></li>
+                    <li class="sidebar__item" data-scroll = "#troubleshooting"><a class="sidebar__link" href="#troubleshooting">Troubleshooting</a></li>
+                    <li class="sidebar__item" data-scroll = "#businesses"><a class="sidebar__link" href="#businesses">Querri for Businesses</a></li>
                 </ul>
-            </div>
+            </nav>
         </aside>
-    
-        <section class="faq">
-            <section class="faq__space">
-                Scrool downb
+        
+        <main class="faq">
+            <h1 class="faq__heading">FAQ</h1>
+            <p class="faq__description">Frequently asked questions</p>
+
+            <section id="about" class="faq__section">
+                <h2 class="faq__topic" data-scroll="#about">About Querri</h2>
+                <ul class="faq__content">
+                    <li class="faq__question"><a href="#" class="faq__link">What is Querri?</a></li>
+                    <li class="faq__question"><a href="#" class="faq__link">Who is the mastermind behind Querri?</a></li>
+                    <li class="faq__question"><a href="#" class="faq__link">How is Querri even profitable?</a></li>
+                    <li class="faq__question"><a href="#" class="faq__link">When is Querri's bedtime?</a></li>
+                    <li class="faq__question"><a href="#" class="faq__link">Why is Querri spelled with an i?</a></li>
+                </ul>
             </section>
-    
-            <section id="topic1" class="faq__section">
-                <h2 class="faq__topic" data-scroll="#topic1">Topic 1</h2>
-                <div class="faq__content"></div>
+
+            <section id="basics" class="faq__section">
+                <h2 class="faq__topic" data-scroll="#basics">Basics</h2>
+                <ul class="faq__content">
+                    <li class="faq__question"><a href="#" class="faq__link">What do Querri members get out of the service?</a></li>
+                    <li class="faq__question"><a href="#" class="faq__link">What plans are available?</a></li>
+                    <li class="faq__question"><a href="#" class="faq__link">What is Querri membership plus?</a></li>
+                    <li class="faq__question"><a href="#" class="faq__link">How do I add a new query?</a></li>
+                    <li class="faq__question"><a href="#" class="faq__link">What is a query?</a></li>
+                    <li class="faq__question"><a href="#" class="faq__link">How do I know if my query is working?</a></li>
+                </ul>
             </section>
-    
-            <section id="topic2" class="faq__section">
-                <h2 class="faq__topic" data-scroll="#topic2">Topic 2</h2>
-                <div class="faq__content"></div>
+            <section id="gettingstarted" class="faq__section">
+                <h2 class="faq__topic" data-scroll="#gettingstarted">Getting Started</h2>
+                <ul class="faq__content">
+                    <li class="faq__question"><a href="#" class="faq__link">What is the Querri experience?</a></li>
+                    <li class="faq__question"><a href="#" class="faq__link">How long am I supposed to use the Querri service?</a></li>
+                    <li class="faq__question"><a href="#" class="faq__link">How are the entries being used?</a></li>
+                    <li class="faq__question"><a href="#" class="faq__link">How long will it take me to get my results?</a></li>
+                    <li class="faq__question"><a href="#" class="faq__link">How many tasks can I have at a time?</a></li>
+                </ul>
             </section>
-            <section id="topic3" class="faq__section">
-                <h2 class="faq__topic" data-scroll="#topic3">Topic 3</h2>
-                <div class="faq__content"></div>
+            <section id="troubleshooting" class="faq__section">
+                <h2 class="faq__topic" data-scroll="#troubleshooting">Troubleshooting</h2>
+                <ul class="faq__content">
+                    <li class="faq__question"><a href="#" class="faq__link">What do I do if Querri stops working?</a></li>
+                    <li class="faq__question"><a href="#" class="faq__link">How long until my service resumes?</a></li>
+                    <li class="faq__question"><a href="#" class="faq__link">Why does my profile show I have a payment due?</a></li>
+                    <li class="faq__question"><a href="#" class="faq__link">Why is the query light blinking blue?</a></li>
+                    <li class="faq__question"><a href="#" class="faq__link">Why does the home page show an empty list?</a></li>
+                </ul>
             </section>
-            <section id="topic4" class="faq__section">
-                <h2 class="faq__topic" data-scroll="#topic4">Topic 4</h2>
-                <div class="faq__content"></div>
+            <section id="businesses" class="faq__section">
+                <h2 class="faq__topic" data-scroll="#businesses">Querri for Businesses</h2>
+                <ul class="faq__content">
+                    <li class="faq__question"><a href="#" class="faq__link">Can I become a Queri partner?</a></li>
+                    <li class="faq__question"><a href="#" class="faq__link">What are the benefits of being a partner?</a></li>
+                    <li class="faq__question"><a href="#" class="faq__link">What business plans are available?</a></li>
+                </ul>
             </section>
-            <section id="topic5" class="faq__section">
-                <h2 class="faq__topic" data-scroll="#topic5">Topic 5</h2>
-                <div class="faq__content"></div>
-            </section>
-            <section class="faq__space">
-            </section>
-        </section>
+        </main>
+    </div>
+    <footer class="footer">Footer</footer>
     <script type="text/javascript" src="app.js"></script>
 </body>
 </html>
