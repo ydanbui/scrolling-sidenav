@@ -10,17 +10,20 @@
 </head>
 
 <body>
-    <header class="header">Header</header>
+    <header class="header">querri</header>
     <div class="container">
         <aside class="sidebar">
             <nav class="sidebar__container">
                 <h3 class="sidebar__title">Topics</h3>
                 <ul class="sidebar__list">
-                    <li class="sidebar__item active" data-scroll = "#about""><a class="sidebar__link" href="#about">About Querri</a></li>
-                    <li class="sidebar__item" data-scroll = "#basics"><a class="sidebar__link" href="#basics">Basics</a></li>
-                    <li class="sidebar__item" data-scroll = "#gettingstarted"><a class="sidebar__link" href="#gettingstarted">Getting Started</a></li>
-                    <li class="sidebar__item" data-scroll = "#troubleshooting"><a class="sidebar__link" href="#troubleshooting">Troubleshooting</a></li>
-                    <li class="sidebar__item" data-scroll = "#businesses"><a class="sidebar__link" href="#businesses">Querri for Businesses</a></li>
+                    <div class="sidebar__bar">
+                        <div class="sidebar__indicator"></div>
+                    </div>
+                    <li class="sidebar__item active" data-scroll = "#about" data-position = "0%"><a class="sidebar__link" href="#about">About Querri</a></li>
+                    <li class="sidebar__item" data-scroll = "#basics" data-position = "20%"><a class="sidebar__link" href="#basics">Basics</a></li>
+                    <li class="sidebar__item" data-scroll = "#gettingstarted" data-position = "40%"><a class="sidebar__link" href="#gettingstarted">Getting Started</a></li>
+                    <li class="sidebar__item" data-scroll = "#troubleshooting" data-position = "60%"><a class="sidebar__link" href="#troubleshooting">Troubleshooting</a></li>
+                    <li class="sidebar__item" data-scroll = "#businesses" data-position = "80%"><a class="sidebar__link" href="#businesses">Querri for Businesses</a></li>
                 </ul>
             </nav>
         </aside>
@@ -81,7 +84,7 @@
             </section>
         </main>
     </div>
-    <footer class="footer">Footer</footer>
+    <footer class="footer"></footer>
     <script type="text/javascript" src="app.js"></script>
 </body>
 </html>
